@@ -1,0 +1,51 @@
+/* Add this CSS to your stylesheet or component */
+ul {
+    list-style-type: none;
+  }
+  
+
+    .dashboard-heading {
+    margin-bottom: 20px;
+  }
+
+  .search-bar {
+    margin-bottom: 20px;
+  }
+
+  .row-content {
+    margin-bottom: 20px;
+  }
+
+  .left-column {
+    width: 60%;
+  }
+
+  .right-column {
+    width: 40%;
+  }
+
+  .card {
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .card-body {
+    padding: 20px;
+  }
+
+  .course-icon {
+    font-size: 24px;
+    margin-right: 10px;
+  }
+
+  /* Additional styles for aligning text in list items */
+  .list-unstyled li {
+    /* display: flex; */
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 0;
+  }
+
+  .list-unstyled li span:first-child {
+    flex-grow: 1;
+  }

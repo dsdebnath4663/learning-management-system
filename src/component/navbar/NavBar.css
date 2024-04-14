@@ -1,0 +1,72 @@
+/* Navbar.css */
+
+/* Navbar */
+.navbar {
+    background-color: #f8f9fa; /* Light gray background */
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+  }
+  
+  /* Main navigation items */
+  .navbar-nav .nav-item {
+    position: relative;
+  }
+  
+  .navbar-nav .nav-link {
+    color: #333; /* Dark gray text color */
+  }
+  
+  /* Dropdown menu */
+  .dropdown-menu {
+    background-color: #fff; /* White background */
+    border: none;
+    border-radius: 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Light shadow */
+    padding: 20px;
+  }
+  
+  /* Mega menu columns */
+  .mega-menu .col {
+    padding: 0 15px; /* Column padding */
+  }
+  
+  /* Mega menu header */
+  .mega-menu-header {
+    font-weight: bold;
+    color: #333; /* Dark gray text color */
+    margin-bottom: 10px;
+  }
+  
+  /* Mega menu links */
+  .mega-menu ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .mega-menu ul li {
+    margin-bottom: 10px;
+  }
+  
+  /* Hover effect for mega menu links */
+  .mega-menu ul li a {
+    color: #333; /* Dark gray text color */
+    transition: color 0.3s; /* Smooth color transition */
+  }
+  
+  .mega-menu ul li a:hover {
+    color: #007bff; /* Blue text color on hover */
+  }
+  
+  /* Adjust dropdown position */
+  .dropdown-menu .mega-menu {
+    width: 100%;
+    left: 0 !important; /* Override Bootstrap's default left positioning */
+    right: auto !important; /* Override Bootstrap's default right positioning */
+  }
+  
+
+ .mega-menu-content{
+    width:max-content!important;
+  }
