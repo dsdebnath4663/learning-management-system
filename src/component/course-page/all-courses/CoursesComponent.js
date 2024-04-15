@@ -1,6 +1,8 @@
 import "./CoursePage.css"; // Import your custom CSS file
 import React, { useState, useEffect } from 'react';
 import { enroll, getAllCourses, WithdrawCourse } from "../../../service/apiService";
+import { Link } from "react-router-dom";
+import CoursesDeatilsPage from "../course-details/CoursesDeatilsPage";
 
 
 const CoursesComponent = () => {
@@ -12,7 +14,18 @@ const CoursesComponent = () => {
   const [searchQuery, setSearchQuery] = useState('');
   const [sortOption, setSortOption] = useState('');
   const response = ''; // Example response of type 'any'
+  const instructorName = 'Jhon Doe';
+  const [isDiv1Visible, setIsDiv1Visible] = useState(true);
+  const [selectedCourse, setSelectedCourse] = useState(null);
 
+  const toggleHandler = () => {
+    setIsDiv1Visible(!isDiv1Visible);
+  };
+  const handleViewDetails = (course) => {
+    toggleHandler();
+    setSelectedCourse(course);
+    console.log("selectedCourse :", selectedCourse)
+  };
   const fetchAllCourses = async () => {
     setIsLoading(true);
     setError('');
@@ -109,27 +122,33 @@ const CoursesComponent = () => {
       setError("Course Registration failed. Please try again.");
     }
   };
+
   return (
     <div className="col-10 ">
-      <h1>Course Catalog</h1>
-      <div className="row mb-3">
-        <div className="col-md-6">
-          <input
-            type="text"
-            className="form-control"
-            placeholder="Search by course title"
-            value={searchQuery}
-            onChange={handleSearch}
-          />
-        </div>
-        <div className="col-md-6">
-          <select className="form-select" onChange={handleSort} value={sortOption}>
-            <option value="">Sort by</option>
-            <option value="alphabetical">Alphabetical</option>
-            {/* Add more sort options here */}
-          </select>
-        </div>
-      </div>
+
+      {isDiv1Visible && (
+        <><h1>Course Catalog</h1><div className="row mb-3">
+          <div className="col-md-6">
+            <input
+              type="text"
+              className="form-control"
+              placeholder="Search by course title"
+              value={searchQuery}
+              onChange={handleSearch} />
+          </div>
+          <div className="col-md-6">
+            <select className="form-select" onChange={handleSort} value={sortOption}>
+              <option value="">Sort by</option>
+              <option value="alphabetical">Alphabetical</option>
+              {/* Add more sort options here */}
+            </select>
+          </div>
+        </div></>
+      )}
+
+
+
+
       {isLoading && (
         <div className="loader-backdrop">
           <div className="loader-container">
@@ -144,36 +163,53 @@ const CoursesComponent = () => {
           {error}
           <button type="button" className="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
         </div>)}
-      <div className="row row-cols-1 row-cols-md-2 row-cols-lg-4">
-
-        {filteredCourses.map(course => (
-          <div key={course.id} className=" mb-4">
-            <div className="card">
-              <div className="card-body">
-                <h5 className="card-title">{course.title}</h5>
-                <p className="card-text">{course.description.slice(0, 50)}</p>
-                <p className="card-text">Instructor: {course.instructorName}</p>
-                <p className="card-text">{course.id}</p>
 
 
-                <div class="container flex-column">
-                  <div class="row">
-                    <div class="col-sm-6">
-                      <button className="btn btn-primary" onClick={() => handleEnrollOrWithdrawCourse(course.id, true)}>Enroll</button>
+      <div className="container mt-5">
+        {isDiv1Visible ? (
+          <div className="row row-cols-1 row-cols-md-2 row-cols-lg-4">
+
+            {filteredCourses.map(course => (
+              <div key={course.id} className=" mb-4">
+                <div className="card">
+                  <div className="card-body">
+                    <h5 className="card-title">{course.title.slice(0, 10)}</h5>
+                    <p className="card-text">{course.description.slice(0, 30)}</p>
+                    <p className="card-text">Instructor: {course.instructorName}</p>
+                    <p className="card-text">{course.id}</p>
+
+
+                    <div class="container flex-column">
+                      <div class="row">
+                        <div class="col-sm-6">
+                          <button className="btn btn-primary" onClick={() => handleEnrollOrWithdrawCourse(course.id, true)}>Enroll</button>
+                        </div>
+                        <div class="col-sm-6">
+                          <button className="btn btn-danger" onClick={() => handleEnrollOrWithdrawCourse(course.id, false)}>Withdraw</button>
+
+                        </div>
+
+
+                      </div>
+                      {/* Pass course details to handleViewDetails */}
+                      <a onClick={() => handleViewDetails(course)} className="card-link">View Details</a>
+
                     </div>
-                    <div class="col-sm-6">
-                      <button className="btn btn-danger" onClick={() => handleEnrollOrWithdrawCourse(course.id, false)}>Withdraw</button>
-                    </div>
+
                   </div>
                 </div>
-
-
-
               </div>
-            </div>
+
+            ))}
           </div>
-        ))}
+        ) : (
+
+          <>
+            <a onClick={toggleHandler} class="back-link">&lt; Back to Course Catalog</a>
+            <CoursesDeatilsPage selectedCourse={selectedCourse} /></>
+        )}
       </div>
+
       {successMessage &&
         (<div className="alert alert-success alert-dismissible fade show position-fixed top-0 end-0" role="alert">
           {successMessage}

@@ -19,3 +19,22 @@
   justify-content: center;
   align-items: center;
 }
+
+.card-link{
+  text-decoration: none;
+}
+.card-link:hover {
+  text-decoration: underline;
+}
+
+    /* Custom styles for the back link */
+    .back-link {
+      margin-top: 20px;
+      display: inline-block;
+      color: #007bff; /* Bootstrap primary color */
+      text-decoration: none;
+    }
+
+    .back-link:hover {
+      text-decoration: underline;
+    }

@@ -115,7 +115,7 @@ const RegisterForm = () => {
             >
               {isLoading ? "Registering..." : "Register"}
             </button>
-            <Link to="/" className="btn btn-link">
+            <Link to="/login-form" className="btn btn-link">
               Back to Login
             </Link>
           </form>
