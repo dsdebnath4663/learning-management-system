@@ -15,6 +15,8 @@ import CreateCourse from "./component/course-page/create-course/CreateCourse";
 import CoursesComponent from "./component/course-page/all-courses/CoursesComponent";
 import UpdateCourseForm from "./component/course-page/update-course/UpdateCourseForm";
 import CoursesDeatilsPage from "./component/course-page/course-details/CoursesDeatilsPage";
+import CreatForumPost from "./component/forum-Post/Creat-forum-post/CreatForumPost";
+import ReviewList from "./component/forum-Post/Creat-forum-post/review/ReviewList";
 
 function App() {
   return (
@@ -30,7 +32,7 @@ function App() {
             <Route path="/all-course" element={<CoursesComponent />} />
             {<Route path="/update-course" element={<UpdateCourseForm />} />}
             {<Route path="/course-deatils" element={<CoursesDeatilsPage />} />}
-
+            {<Route path="/reviews" element={<ReviewList />} />}
             <Route path="*" element={<NotFoundPage />} />
           </Route>
         </Routes>

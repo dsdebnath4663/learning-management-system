@@ -1,0 +1,17 @@
+/* Tooltip style */
+span:hover::after {
+  content: attr(title);
+  background-color: black;
+  color:  #D9F2DD;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+
+
+#highlighted {
+  background-color: yellow;
+}
+

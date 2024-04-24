@@ -111,6 +111,12 @@ const Sidebar = () => {
               Profile Management
             </Link>
           </li>
+
+          <li className="nav-item">
+            <Link to="/reviews" className="nav-link ">
+              Reviews
+            </Link>
+          </li>
         </ul>
       </div>
 

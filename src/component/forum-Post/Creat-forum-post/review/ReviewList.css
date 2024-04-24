@@ -1,0 +1,69 @@
+
+.logo{
+  width: 38px;
+  height: auto;
+  margin-left: -6%;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.marginLeft{
+  margin-left: 10px;
+}
+
+/* styles.css */
+
+.star-rating {
+  display: inline-block;
+  font-size: 29px;
+}
+
+.star-filled {
+  color: gold; /* Color of filled star */
+}
+
+.star-empty {
+  color: #ccc; /* Color of empty star */
+}
+.review-info{
+  display: flex;
+  align-items: center;
+}
+.review-info p {
+  margin-right: 10px; /* Adjust margin as needed */
+}
+
+.review-info .icons {
+  margin-left: 48%; /* Adjust margin as needed */
+}
+/* Contact Icon */
+.contact-icon::before {
+  font-size: 24px;
+  margin-right: 5px;
+}
+
+/* Save Icon */
+.save-icon::before {
+  font-size: 24px;
+  margin-right: 5px;
+}
+
+/* Three-dot Icon */
+.three-dot-icon::before {
+  font-size: 24px;
+  margin-right: 5px;
+}
+
+.icon-group {
+  display: inline-flex;
+  gap: 10px; /* Adjust the gap as needed */
+}
+
+.padding{
+  padding: auto;
+}
+
+.review-list {
+  margin-top: 25px; /* Add margin at the top of the list */
+  margin-bottom: 25px; /* Add margin at the bottom of the list */
+}

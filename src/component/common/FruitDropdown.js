@@ -13,7 +13,7 @@ const originalList = [
 const fruitsList = originalList.filter(
   (item) => item.category === "INSTRUCTOR"
 );
-console.log("Fruits List:", fruitsList);
+// console.log("Fruits List:", fruitsList);
 const FruitDropdown = () => {
   const [selectedFruit, setSelectedFruit] = useState("");
 
