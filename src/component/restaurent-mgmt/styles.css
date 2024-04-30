@@ -1188,9 +1188,10 @@ body {
   gap: 4px;
   position: absolute;
   width: 126px;
-  height: 17px;
-  left: 474px;
-  top: 137px;
+
+  height: 12px;
+  left: 137px;
+  top: -72px;
   background: #001333;
   box-shadow: 0px 4px 9px rgba(38, 97, 197, 0.2);
   border-radius: 82px;
@@ -1198,7 +1199,7 @@ body {
   margin-top: -2px;
 }
 
-.group-18 .call {
+.call {
   width: 114px;
   height: 9px;
   font-family: "Plus Jakarta Sans";
@@ -1214,7 +1215,21 @@ body {
   margin: 0px 0px 7px 2px;
   flex-grow: 0;
 }
+.fraem-943-back-color {
+  background: linear-gradient(
+    249.46deg,
+    #2878ff 1.31%,
+    #2c65c8 100%
+  ) !important;
+  box-shadow: 0px 4px 9px rgba(38, 97, 197, 0.2) !important;
+}
 
+.fraem-943 img {
+  margin: -3px 0px 2px -30px;
+  font-size: 61px;
+  width: 27px;
+  height: 27px;
+}
 .group-18 .icon {
   /* 💬 */
 
@@ -1234,14 +1249,11 @@ body {
   flex-direction: column;
   align-items: flex-start;
   padding: 0px;
-
   position: absolute;
   width: 285px;
-  height: 123px;
-  left: 352px;
-  top: 161px;
-
-  /* Dropshadow decor */
+  height: 127px;
+  left: 8px;
+  top: -53px;
   filter: drop-shadow(0px 8px 16px rgba(37, 98, 204, 0.15));
 }
 
@@ -1838,4 +1850,18 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
   order: 1;
   align-self: stretch;
   flex-grow: 0;
+}
+
+.group-19 {
+  position: absolute;
+  width: 285px;
+  left: 352px;
+  height: 147px;
+  top: 317px;
+}
+
+.fraem-949-time {
+  left: -38px;
+  top: -16px;
+  position: relative;
 }
