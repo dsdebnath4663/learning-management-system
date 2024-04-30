@@ -1522,13 +1522,11 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
 }
 
 .group-20 {
-  /* Group 20 */
-
   position: absolute;
   width: 2000px;
   height: 102px;
   left: -292px;
-  top: 612px;
+  top: 839px;
 }
 
 .fraem-933 {
@@ -1842,4 +1840,9 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
   order: 1;
   align-self: stretch;
   flex-grow: 0;
+}
+
+.position {
+  left: calc(69%);
+  top: calc(-12%);
 }
