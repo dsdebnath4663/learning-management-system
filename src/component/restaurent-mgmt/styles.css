@@ -1669,53 +1669,41 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
   flex-grow: 0;
 }
 .title p {
-  width: 138px;
-  height: 9px;
+  width: 429px;
+  height: 119px;
   font-family: "Plus Jakarta Sans";
   font-style: normal;
   font-weight: 700;
-  font-size: 12px;
-  line-height: 150%;
+  font-size: 17px;
+  line-height: 27px;
   leading-trim: both;
   text-edge: cap;
-  /* letter-spacing: 0.2em; */
-  text-transform: uppercase;
-  background: linear-gradient(249.46deg, #2878ff 1.31%, #2c65c8 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  text-fill-color: transparent;
+  color: #121d2f;
   flex: none;
-  order: 0;
+  order: 1;
   flex-grow: 0;
 }
 .fraem-26 .title {
   /* Title */
 
-  /* Auto layout */
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  padding: 16px 24px;
-  gap: 10px;
-
-  width: 186px;
-  height: 41px;
-
-  /* Primary/01 */
+  padding: 15px 25px;
+  gap: 94px;
+  width: 189px;
+  height: 39px;
   background: #f1f6ff;
-  border-radius: 8px;
-
-  /* Inside auto layout */
-  flex: none;
-  order: 0;
-  flex-grow: 0;
+  border-radius: 11px;
+}
+.fraem-26-body {
+  font-size: 40px !important;
 }
 .title p {
   /* THIS IS PLATEFORM */
 
   width: 138px;
-  height: 9px;
+  height: 16px;
 
   font-family: "Plus Jakarta Sans";
   font-style: normal;
@@ -1745,30 +1733,18 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
   flex-grow: 0;
 }
 
-.fraem-26 p {
-  /* Great communication means more time and profit */
-
-  width: 544px;
-  height: 78px;
-
-  /* Heading 1/01 */
+.fraem-26-title {
+  width: 1002px;
+  height: 328px;
+  padding: -83px -14px;
   font-family: "Plus Jakarta Sans";
   font-style: normal;
   font-weight: 700;
-  font-size: 40px;
-  line-height: 48px;
-  /* or 120% */
-  /* leading-trim and text-edge are draft CSS properties.
-
-Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
-*/
+  font-size: 17px;
+  line-height: 13px;
   leading-trim: both;
   text-edge: cap;
-
-  /* Neutral / 07 */
   color: #121d2f;
-
-  /* Inside auto layout */
   flex: none;
   order: 1;
   flex-grow: 0;
@@ -1791,37 +1767,9 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
   flex: none;
   order: 1;
   flex-grow: 0;
+  margin-top: 77px;
 }
 
-.fraem-26 .text-1 {
-  /* Communication is key! That’s why we make it easy and hassle-free, so you don’t waster time on unnecessary interactions. */
-
-  width: 544px;
-  height: 41px;
-
-  /* Heading 4/04 */
-  font-family: "Plus Jakarta Sans";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 28px;
-  /* or 156% */
-  /* leading-trim and text-edge are draft CSS properties.
-
-Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
-*/
-  leading-trim: both;
-  text-edge: cap;
-
-  /* Neutral / 07 */
-  color: #121d2f;
-
-  /* Inside auto layout */
-  flex: none;
-  order: 0;
-  align-self: stretch;
-  flex-grow: 0;
-}
 .fraem-26 .text-1 {
   /* Keep track of your employees, drivers and vehicles, manage social media and stay in touch with your customers. */
 
@@ -1864,4 +1812,34 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
   left: -38px;
   top: -16px;
   position: relative;
+}
+
+.fraem-27 p {
+  /* Keep track of your employees, drivers and vehicles, manage social media and stay in touch with your customers. */
+
+  width: 544px;
+  height: 9px;
+
+  /* Heading 4/04 */
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  /* or 156% */
+  /* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+  leading-trim: both;
+  text-edge: cap;
+
+  /* Neutral / 07 */
+  color: #121d2f;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
 }
