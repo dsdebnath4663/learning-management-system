@@ -1,0 +1,686 @@
+.frame-931 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 160px;
+
+  position: absolute;
+  width: 1200px;
+  height: 585px;
+  left: 120px;
+  top: calc(50% - 585px / 2 + 0.5px);
+}
+
+.frame-930 {
+  /* Frame 930 */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 48px;
+
+  width: 544px;
+  height: 361px;
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.frame-929 {
+  /* Frame 929 */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 24px;
+
+  width: 544px;
+  height: 143px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.title {
+  /* Title */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 16px 24px;
+  gap: 10px;
+
+  width: 157px;
+  height: 41px;
+
+  /* Primary/01 */
+  background: #f1f6ff;
+  border-radius: 8px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.title2 {
+  /* Focus on the essentials we’ll do the rest */
+
+  width: 544px;
+  height: 78px;
+
+  /* Heading 1/01 */
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  /* or 120% */
+  /* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+  leading-trim: both;
+  text-edge: cap;
+
+  /* Neutral / 07 */
+  color: #121d2f;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.frame-27 {
+  /* Frame 27 */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 32px;
+
+  width: 448px;
+  height: 170px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.frame-27-title {
+  /* Plateform takes of your orders and employees, let you manage sales, marketing campaigns - easy and all in one place. */
+
+  width: 448px;
+  height: 69px;
+
+  /* Heading 4/04 */
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 32px;
+  /* or 178% */
+  /* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+  leading-trim: both;
+  text-edge: cap;
+
+  /* Neutral / 07 */
+  color: #121d2f;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.frame-27-title-2 {
+  /* With our Ai based optimization tool, the system will suggest small, easy to implement changes to make your business run better and smoother. */
+
+  width: 448px;
+  height: 69px;
+
+  /* Heading 4/04 */
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  /* or 156% */
+  /* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+  leading-trim: both;
+  text-edge: cap;
+
+  /* Neutral / 07 */
+  color: #121d2f;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.frame-928 {
+  /* Frame 928 */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  gap: 81px;
+
+  width: 1200px;
+  height: 64px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.frame-927 {
+  /* Frame 927 */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+
+  position: absolute;
+  width: 430px;
+  height: 326px;
+  left: 831px;
+  top: 170px;
+
+  /* Dropshadow decor */
+  filter: drop-shadow(0px 8px 16px rgba(37, 98, 204, 0.15));
+}
+
+.frame-909 {
+  /* Frame 909 */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px 24px;
+  gap: 12px;
+
+  width: 430px;
+  height: 80px;
+
+  /* Primary/05 */
+  background: linear-gradient(249.46deg, #2878ff 1.31%, #2c65c8 100%);
+  border-radius: 24px 24px 0px 0px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.avatar {
+  /* Avatar */
+
+  width: 40px;
+  height: 40px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.ellipse-7 {
+  /* Ellipse 7 */
+
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+
+  background: url(.png);
+}
+
+.avatar-title {
+  /* Hello! Angelina */
+
+  width: 116px;
+  height: 12px;
+
+  /* Body 1 / 02 */
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  /* or 138% */
+  /* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+  leading-trim: both;
+  text-edge: cap;
+  display: flex;
+  align-items: flex-end;
+
+  /* White */
+  color: #ffffff;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.frame-925 {
+  /* Frame 925 */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 24px;
+  gap: 82px;
+
+  width: 430px;
+  height: 164px;
+
+  /* White */
+  background: #ffffff;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.frame-922 {
+  /* Frame 922 */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 32px;
+
+  width: 128px;
+  height: 110px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.frame-917 {
+  /* Frame 917 */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 12px;
+
+  width: 128px;
+  height: 39px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.frame-header-title {
+  /* Today in sales */
+
+  width: 79px;
+  height: 9px;
+  margin: auto;
+  /* Caption/03 */
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 17px;
+  /* or 142% */
+  /* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+  leading-trim: both;
+  text-edge: cap;
+  display: flex;
+  align-items: flex-end;
+
+  /* Neutral / 04 */
+  color: #727c8f;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.frame-header-body {
+  /* $12,472.00 */
+
+  /* width: 128px;
+  height: 18px; */
+
+  /* Heading 3 / 04 */
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  leading-trim: both;
+  text-edge: cap;
+  display: flex;
+  align-items: flex-end;
+  letter-spacing: -0.01em;
+
+  /* Neutral / 07 */
+  color: #121d2f;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.frame-919 {
+  /* Frame 919 */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 12px;
+
+  width: 114px;
+  height: 39px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.frame-918 {
+  /* Frame 918 */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+
+  width: 114px;
+  height: 18px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.frame-header {
+  display: flex;
+  align-items: center;
+}
+
+.frame-header-body-left {
+  /* 456 */
+
+  width: 44px;
+  height: 18px;
+
+  /* Heading 3 / 04 */
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  /* or 121% */
+  /* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+  leading-trim: both;
+  text-edge: cap;
+  display: flex;
+  align-items: flex-end;
+  letter-spacing: -0.01em;
+
+  /* Neutral / 07 */
+  color: #121d2f;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.percent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 1px 8px;
+  gap: 10px;
+  width: 23px;
+  height: 15px;
+  background: #edfff2;
+  border-radius: 123px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  color: green;
+  font-weight: 650;
+  margin-left: -4px;
+  margin-top: -9px;
+  font-size: 12px;
+}
+
+.frame-header-body-right {
+  position: absolute;
+  margin-top: 1px;
+  margin-left: -3px;
+}
+
+.danger {
+  color: var(--danger-06) !important;
+  background-color: var(--danger-01);
+}
+
+.frame-926 {
+  /* Frame 926 */
+
+  box-sizing: border-box;
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 24px;
+  gap: 72px;
+
+  width: 430px;
+  height: 82px;
+
+  /* White */
+  background: #ffffff;
+  /* Neutral / 01 */
+  border-top: 1px solid #eff1f4;
+  border-radius: 0px 0px 24px 24px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+.header-polular {
+  /* Most polular */
+
+  width: 71px;
+  height: 9px;
+
+  /* Caption/03 */
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 17px;
+  /* or 142% */
+  /* leading-trim and text-edge are draft CSS properties.
+  
+  Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+  */
+  leading-trim: both;
+  text-edge: cap;
+  display: flex;
+  align-items: flex-end;
+
+  /* Neutral / 04 */
+  color: #727c8f;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.body-polular {
+  /* Pizzaa Tomate */
+
+  width: 120px;
+  height: 13px;
+
+  /* Heading 4/04 */
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  /* or 156% */
+  /* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+  leading-trim: both;
+  text-edge: cap;
+  display: flex;
+  align-items: flex-end;
+
+  /* Neutral / 07 */
+  color: #121d2f;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.frame-921 {
+  align-items: center;
+  padding: 0px;
+  gap: 0px;
+
+  width: 120px;
+  height: 34px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  flex-direction: column; /* or row-reverse, column-reverse, etc. */
+}
+.frame-920 {
+  box-sizing: border-box;
+  align-items: center;
+  padding: 24px;
+  gap: 72px;
+  width: 241px;
+  height: 82px;
+  background: #ffffff;
+  border-top: 1px solid #eff1f4;
+  border-radius: 0px 0px 24px 24px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 24px;
+  border-bottom-left-radius: 24px;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+.group-24 {
+  position: absolute;
+  width: 151px;
+  height: 143px;
+  left: 1286px;
+  top: 288px;
+}
+.group-11 {
+  position: absolute;
+  left: 1094px;
+  top: 343px;
+  filter: drop-shadow(0px 4px 8px rgba(28, 72, 145, 0.6));
+}
+
+.group-11 img {
+  width: 80px;
+  height: 68.01px;
+}
+.group-13 {
+  position: absolute;
+  left: 855.28px;
+  top: 634.54px;
+  transform: rotate(-17.07deg);
+}
+
+.group-13 img {
+  width: 121.74px;
+  height: 114.8px;
+}
+
+.group-14 {
+  /* Frame 14 */
+  position: absolute;
+  left: 1365.29px;
+  top: 681px;
+}
+
+.group-14 img {
+  height: 112.42px;
+  left: 1214.29px;
+}

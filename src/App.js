@@ -17,6 +17,7 @@ import UpdateCourseForm from "./component/course-page/update-course/UpdateCourse
 import CoursesDeatilsPage from "./component/course-page/course-details/CoursesDeatilsPage";
 import CreatForumPost from "./component/forum-Post/Creat-forum-post/CreatForumPost";
 import ReviewList from "./component/forum-Post/Creat-forum-post/review/ReviewList";
+import Landing from "./component/landing-page/Landing";
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
             {<Route path="/update-course" element={<UpdateCourseForm />} />}
             {<Route path="/course-deatils" element={<CoursesDeatilsPage />} />}
             {<Route path="/reviews" element={<ReviewList />} />}
+            {<Route path="/home" element={<Landing />} />}
             <Route path="*" element={<NotFoundPage />} />
           </Route>
         </Routes>

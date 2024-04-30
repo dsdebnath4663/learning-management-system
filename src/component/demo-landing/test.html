@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="globals.css" />
+    <link rel="stylesheet" href="styleguide.css" />
+    <link rel="stylesheet" href="style.css" />
+    <style>
+
+:root {
+  --primary: rgba(255, 67, 17, 1);
+  --secondary-text: rgba(25, 25, 25, 1);
+  --style: rgba(25, 25, 25, 1);
+}
+
+    .desktop {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.desktop .div {
+  background-color: #ffffff;
+  overflow: hidden;
+  width: 1440px;
+  height: 820px;
+  position: relative;
+}
+
+.desktop .overlap {
+  position: absolute;
+  width: 2747px;
+  height: 2140px;
+  top: -1320px;
+  left: 0;
+}
+
+.desktop .vector {
+  position: absolute;
+  width: 181px;
+  height: 68px;
+  top: 1658px;
+  left: 263px;
+}
+
+.desktop .rectangle {
+  width: 1440px;
+  height: 788px;
+  top: 1320px;
+  background: linear-gradient(180deg, rgba(245, 112.76, 71, 0.06) 0%, rgba(245, 112.76, 71, 0) 100%);
+  position: absolute;
+  left: 0;
+}
+
+.desktop .image {
+  position: absolute;
+  width: 566px;
+  height: 566px;
+  top: 1474px;
+  left: 678px;
+}
+
+.desktop .group {
+  position: absolute;
+  width: 193px;
+  height: 45px;
+  top: 2006px;
+  left: 993px;
+}
+
+.desktop .overlap-group {
+  position: relative;
+  width: 191px;
+  height: 45px;
+  background-color: #1a1a1a;
+  border-radius: 100px;
+}
+
+.desktop .text-wrapper {
+  position: absolute;
+  width: 107px;
+  top: 10px;
+  left: 42px;
+  font-family: "Gilroy-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .ranch-sauce {
+  position: absolute;
+  width: 283px;
+  top: 1947px;
+  left: 945px;
+  opacity: 0.8;
+  font-family: "Gilroy-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--style);
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .cheese-chicken {
+  position: absolute;
+  width: 359px;
+  top: 1908px;
+  left: 907px;
+  opacity: 0.8;
+  font-family: "Gilroy-Bold", Helvetica;
+  font-weight: 700;
+  color: #ff4211;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .enjoy-your-pizza-now {
+  position: absolute;
+  width: 584px;
+  top: 1510px;
+  left: 63px;
+  font-family: "Gilroy-ExtraBold", Helvetica;
+  font-weight: 800;
+  color: transparent;
+  font-size: 50px;
+  letter-spacing: 4px;
+  line-height: normal;
+}
+
+.desktop .span {
+  color: #191919;
+  letter-spacing: 2px;
+}
+
+.desktop .text-wrapper-2 {
+  color: #ff4211;
+  letter-spacing: 2px;
+}
+
+.desktop .anjan-pizza {
+  position: absolute;
+  top: 1352px;
+  left: 129px;
+  font-family: "Gilroy-ExtraBold", Helvetica;
+  font-weight: 800;
+  color: var(--style);
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .choose-your-pizza {
+  position: absolute;
+  top: 1663px;
+  left: 59px;
+  opacity: 0.8;
+  font-family: "Gilroy-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--style);
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.desktop .pizza-in-your-town {
+  position: absolute;
+  top: 1384px;
+  left: 129px;
+  opacity: 0.8;
+  font-family: "Gilroy-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--style);
+  font-size: 16px;
+  letter-spacing: 1px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.desktop .polygon {
+  position: absolute;
+  width: 15px;
+  height: 16px;
+  top: 1726px;
+  left: 438px;
+}
+
+.desktop .ellipse {
+  width: 52px;
+  height: 52px;
+  top: 1356px;
+  left: 59px;
+  border-radius: 26px;
+  border: 3px solid;
+  border-color: #000000;
+  position: absolute;
+  background-color: #ff4211;
+}
+
+.desktop .mask-group {
+  position: absolute;
+  width: 52px;
+  height: 52px;
+  top: 1357px;
+  left: 58px;
+}
+
+.desktop .frame {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 50px;
+  position: absolute;
+  top: 1363px;
+  left: 377px;
+}
+
+.desktop .text-wrapper-3 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Gilroy-Regular", Helvetica;
+  font-weight: 400;
+  color: #191919;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.desktop .component {
+  position: absolute;
+  width: 150px;
+  height: 207px;
+  top: 1784px;
+  left: 59px;
+}
+
+.desktop .overlap-2 {
+  position: relative;
+  height: 207px;
+}
+
+.desktop .rectangle-2 {
+  position: absolute;
+  width: 150px;
+  height: 139px;
+  top: 68px;
+  left: 0;
+  background-color: #ff4211;
+  border-radius: 48px 48px 20px 20px;
+}
+
+.desktop .text-holder {
+  position: absolute;
+  width: 150px;
+  height: 44px;
+  top: 129px;
+  left: 0;
+}
+
+.desktop .chorizo-fresh {
+  position: absolute;
+  top: 9px;
+  left: 13px;
+  font-family: "Gilroy-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.desktop .overlap-group-wrapper {
+  position: absolute;
+  width: 128px;
+  height: 128px;
+  top: 0;
+  left: 11px;
+}
+
+.desktop .image-wrapper {
+  position: relative;
+  width: 125px;
+  height: 125px;
+  top: 1px;
+  left: 1px;
+  background-image: url(./img/ellipse-57-3.svg);
+  background-size: 100% 100%;
+}
+
+.desktop .img {
+  position: absolute;
+  width: 114px;
+  height: 114px;
+  top: 10px;
+  left: 9px;
+  object-fit: cover;
+}
+
+.desktop .overlap-wrapper {
+  position: absolute;
+  width: 150px;
+  height: 207px;
+  top: 1784px;
+  left: 232px;
+}
+
+.desktop .rectangle-3 {
+  width: 150px;
+  height: 139px;
+  top: 68px;
+  background-color: #ffe4db;
+  border-radius: 48px 48px 20px 20px;
+  position: absolute;
+  left: 0;
+}
+
+.desktop .chorizo-fresh-wrapper {
+  position: absolute;
+  width: 150px;
+  height: 44px;
+  top: 128px;
+  left: 0;
+}
+
+.desktop .chorizo-fresh-2 {
+  left: 47px;
+  white-space: nowrap;
+  position: absolute;
+  top: 9px;
+  font-family: "Gilroy-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--primary);
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .img-wrapper {
+  position: relative;
+  width: 125px;
+  height: 125px;
+  top: 1px;
+  left: 1px;
+  background-image: url(./img/ellipse-57-2.svg);
+  background-size: 100% 100%;
+}
+
+.desktop .div-wrapper {
+  position: absolute;
+  width: 150px;
+  height: 207px;
+  top: 1784px;
+  left: 405px;
+}
+
+.desktop .chorizo-fresh-3 {
+  left: 23px;
+  position: absolute;
+  top: 9px;
+  font-family: "Gilroy-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--primary);
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .overlap-group-2 {
+  position: relative;
+  width: 125px;
+  height: 125px;
+  top: 1px;
+  left: 1px;
+  background-image: url(./img/image.svg);
+  background-size: 100% 100%;
+}
+
+.desktop .component-2 {
+  position: absolute;
+  width: 150px;
+  height: 207px;
+  top: 1784px;
+  left: 578px;
+}
+
+.desktop .chorizo-fresh-4 {
+  left: 38px;
+  position: absolute;
+  top: 9px;
+  font-family: "Gilroy-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--primary);
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .overlap-group-3 {
+  position: relative;
+  width: 125px;
+  height: 125px;
+  top: 1px;
+  left: 1px;
+  background-image: url(./img/ellipse-57.svg);
+  background-size: 100% 100%;
+}
+
+.desktop .group-2 {
+  position: absolute;
+  width: 2140px;
+  height: 2140px;
+  top: 0;
+  left: 607px;
+  transform: rotate(-180deg);
+}
+
+.desktop .overlap-3 {
+  position: absolute;
+  width: 1756px;
+  height: 1899px;
+  top: 0;
+  left: 240px;
+}
+
+.desktop .ellipse-2 {
+  width: 1660px;
+  height: 1660px;
+  top: 239px;
+  left: 0;
+  border-radius: 830px;
+  position: absolute;
+  background-color: #ff4211;
+}
+
+.desktop .component-3 {
+  position: absolute;
+  width: 3px;
+  height: 480px;
+  top: 0;
+  left: 1067px;
+  transform: rotate(180deg);
+}
+
+.desktop .component-4 {
+  position: absolute;
+  transform: rotate(180deg);
+
+    left: 69.51%;
+    right: -88.39%;
+    top: 12.58%;
+    height: auto;
+    width: 28%;
+    bottom: -7.46%;
+}
+
+.desktop .component-5 {
+  position: absolute;
+  width: 480px;
+  height: 480px;
+  top: -62px;
+  left: 9262px;
+  transform: rotate(180deg);
+}
+
+.desktop .overlap-4 {
+  position: absolute;
+  width: 823px;
+  height: 827px;
+  top: -892px;
+  left: 9269px;
+}
+
+.desktop .component-6 {
+  position: absolute;
+  width: 480px;
+  height: 480px;
+  top: 0;
+  left: 343px;
+  transform: rotate(180deg);
+}
+
+.desktop .component-7 {
+  position: absolute;
+  width: 480px;
+  height: 480px;
+  top: 347px;
+  left: 0;
+  transform: rotate(180deg);
+}
+
+.desktop .component-8 {
+  position: absolute;
+  width: 480px;
+  height: 480px;
+  top: -892px;
+  left: 7952px;
+  transform: rotate(180deg);
+}
+
+.desktop .component-9 {
+  position: absolute;
+  width: 480px;
+  height: 480px;
+  top: -1719px;
+  left: 8096px;
+  transform: rotate(180deg);
+}
+
+.desktop .component-10 {
+  position: absolute;
+  width: 480px;
+  height: 480px;
+  top: -206px;
+  left: 8435px;
+  transform: rotate(180deg);
+}
+
+.desktop .component-11 {
+  position: absolute;
+  width: 460px;
+  height: 460px;
+  top: 753px;
+  left: -4521px;
+}
+
+.desktop .component-12 {
+  position: absolute;
+  width: 469px;
+  height: 469px;
+  top: 2424px;
+  left: -4516px;
+}
+
+    </style>
+  </head>
+  <body>
+    <div class="desktop">
+      <div class="div">
+        <div class="overlap">
+          <img class="vector" src="img/vector-3.svg" />
+          <div class="rectangle"></div>
+          <div class="image"></div>
+          <div class="group">
+            <div class="overlap-group"><div class="text-wrapper">Order Now</div></div>
+          </div>
+          <p class="ranch-sauce">Ranch Sauce, Mozzarella, Turkey Ham, Pickles And Red Onion</p>
+          <div class="cheese-chicken">Cheese Chicken</div>
+          <p class="enjoy-your-pizza-now">
+            <span class="span">Enjoy your pizza now in </span> <span class="text-wrapper-2">Andijan</span>
+          </p>
+          <div class="anjan-pizza">ANJAN PIZZA</div>
+          <div class="choose-your-pizza">Choose Your Pizza</div>
+          <div class="pizza-in-your-town">Pizza In Your Town</div>
+          <img class="polygon" src="img/polygon-1.svg" />
+          <div class="ellipse"></div>
+          <img class="mask-group" src="img/mask-group.png" />
+          <div class="frame">
+            <div class="text-wrapper-3">Today Special Offers</div>
+            <div class="text-wrapper-3">Why Foodhut</div>
+            <div class="text-wrapper-3">Our Menu</div>
+          </div>
+          <div class="component">
+            <div class="overlap-2">
+              <div class="rectangle-2"></div>
+              <div class="text-holder"><div class="chorizo-fresh">Chorizo ​​fresh</div></div>
+              <div class="overlap-group-wrapper">
+                <div class="image-wrapper"><img class="img" src="https://c.animaapp.com/nzSrwx7A/img/group-8448.png" /></div>
+              </div>
+            </div>
+          </div>
+          <div class="overlap-wrapper">
+            <div class="overlap-2">
+              <div class="rectangle-3"></div>
+              <div class="chorizo-fresh-wrapper"><div class="chorizo-fresh-2">Arriva!</div></div>
+              <div class="overlap-group-wrapper">
+                <div class="img-wrapper"><img class="img" src="img/image-9-2.png" /></div>
+              </div>
+            </div>
+          </div>
+          <div class="div-wrapper">
+            <div class="overlap-2">
+              <div class="rectangle-3"></div>
+              <div class="chorizo-fresh-wrapper">
+                <div class="chorizo-fresh-3">Turkey And <br />mushrooms</div>
+              </div>
+              <div class="overlap-group-wrapper">
+                <div class="overlap-group-2"><img class="img" src="img/image-9.png" /></div>
+              </div>
+            </div>
+          </div>
+          <div class="component-2">
+            <div class="overlap-2">
+              <div class="rectangle-3"></div>
+              <div class="chorizo-fresh-wrapper">
+                <div class="chorizo-fresh-4">Cheese <br />chicken</div>
+              </div>
+              <div class="overlap-group-wrapper">
+                <div class="overlap-group-3"><img class="img" src="img/image.png" /></div>
+              </div>
+            </div>
+          </div>
+          <div class="group-2">
+            <div class="overlap-3">
+              <div class="ellipse-2"></div>
+              <img class="component-3" src="img/component-12.svg" />
+              <img class="component-4" src="images/image 1.png" />
+            </div>
+            <img class="component-5" src="img/component-13.svg" />
+            <div class="overlap-4">
+              <img class="component-6" src="img/component-18.svg" />
+              <img class="component-7" src="img/component-16.svg" />
+            </div>
+            <img class="component-8" src="img/component-19.svg" />
+            <img class="component-9" src="img/component-17.svg" />
+            <img class="component-10" src="img/component-15.svg" />
+          </div>
+        </div>
+        <img class="component-11" src="img/component-3.svg" />
+        <img class="component-12" src="img/component-4.svg" />
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,8 @@
+.navbar-brand img {
+  height: 40px;
+  width: auto;
+}
+.search-box {
+  width: 100%;
+  max-width: 600px;
+}

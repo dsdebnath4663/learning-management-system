@@ -1,0 +1,1841 @@
+.frame-103 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  gap: 106px;
+
+  position: absolute;
+  height: 34.47px;
+  top: 48px;
+  width: 100%;
+  left: calc(39% - 1200px / 2);
+}
+
+.frame-98 {
+  /* Frame 98 */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 10px;
+
+  margin: 0 auto;
+  width: 30%;
+  height: 34.47px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.group-1 {
+  /* Group 1 */
+
+  width: 31px;
+  height: 34.47px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.rectangle-1 {
+  /* Rectangle 1 */
+
+  position: absolute;
+  width: 9.5px;
+  height: 9.5px;
+  left: 0px;
+  top: 19.71px;
+
+  /* Primary */
+  background: linear-gradient(249.46deg, #2878ff 1.31%, #2c65c8 100%);
+  border-radius: 2.19203px;
+  transform: rotate(-45deg);
+}
+
+.rectangle-2 {
+  /* Rectangle 2 */
+
+  position: absolute;
+  width: 13.13px;
+  height: 13.13px;
+  left: 6.22px;
+  top: 9.28px;
+
+  /* Primary */
+  background: linear-gradient(249.46deg, #2878ff 1.31%, #2c65c8 100%);
+  border-radius: 2.46201px;
+  transform: rotate(-45deg);
+}
+
+.rectangle-3 {
+  /* Rectangle 3 */
+
+  position: absolute;
+  width: 9.5px;
+  height: 9.5px;
+  left: 17.57px;
+  top: 19.71px;
+
+  /* Primary */
+  background: linear-gradient(249.46deg, #2878ff 1.31%, #2c65c8 100%);
+  border-radius: 2.19203px;
+  transform: rotate(-45deg);
+}
+
+.rectangle-4 {
+  /* Rectangle 4 */
+
+  position: absolute;
+  width: 9.5px;
+  height: 9.5px;
+  left: 8.78px;
+  top: 27.75px;
+
+  /* Primary */
+  background: linear-gradient(249.46deg, #2878ff 1.31%, #2c65c8 100%);
+  border-radius: 2.19203px;
+  transform: rotate(-45deg);
+}
+
+.logo-text {
+  /* Plateform */
+
+  width: 84px;
+  height: 10px;
+
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 150%;
+  /* or 21px */
+  /* leading-trim and text-edge are draft CSS properties.
+    
+    Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+    */
+  leading-trim: both;
+  text-edge: cap;
+  text-transform: uppercase;
+
+  /* Primary / 09 */
+  color: #001333;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.frame-102 {
+  width: 70%;
+}
+.frame-102 ul li {
+  list-style-type: none;
+  margin-left: 11%;
+  display: inline;
+  padding: 0px;
+  list-style-type: none;
+}
+
+li a {
+  text-decoration: none;
+}
+
+.rectangle-97 {
+  position: absolute;
+  width: 778.32px;
+  height: 778.32px;
+  left: 825.36px;
+  top: 337px;
+  background: linear-gradient(315deg, #d9e8ff 23.17%, #f2f7ff 93.12%);
+  border-radius: 130px;
+  transform: rotate(45deg);
+}
+
+.rectangle-108 {
+  /* Rectangle 108 */
+
+  position: absolute;
+  width: 236.29px;
+  height: 236.29px;
+  left: 258.76px;
+  top: 579.1px;
+
+  background: linear-gradient(315deg, #d6e6ff 23.17%, #f2f7ff 93.12%);
+  opacity: 0.3;
+  border-radius: 43.9693px;
+  transform: rotate(51.05deg);
+}
+
+.rectangle-104 {
+  position: absolute;
+  width: 344.63px;
+  height: 344.63px;
+  left: -106px;
+  top: -137.74px;
+  background: linear-gradient(315deg, #d6e6ff 23.17%, #f2f7ff 93.12%);
+  opacity: 0.3;
+  border-radius: 64.1299px;
+  transform: rotate(113.08deg);
+}
+
+.rectangle-107 {
+  position: absolute;
+  width: 198.2px;
+  height: 198.2px;
+  left: 463.84px;
+  top: 185px;
+  background: linear-gradient(315deg, #d6e6ff 23.17%, #f2f7ff 93.12%);
+  opacity: 0.3;
+  border-radius: 36.8812px;
+  transform: rotate(68.05deg);
+}
+
+.group-27 {
+  /* 161082337-161082337 2 */
+
+  position: absolute;
+  width: 698.93px;
+  height: 698.93px;
+  left: 629.75px;
+  top: 202px;
+
+  background: url(img/161082337-161082337\ 2.png);
+}
+
+/* Set a fixed height for the section */
+header {
+  position: relative;
+  height: 936.93px;
+  overflow: hidden;
+}
+
+section {
+  position: relative;
+  height: 936.93px;
+  overflow: hidden;
+}
+
+.section-height {
+  height: 700.93px !important;
+}
+
+.decor-05 {
+  /* Decor05 */
+
+  position: absolute;
+  width: 115px;
+  height: 89px;
+  left: 835px;
+  top: 206px;
+}
+
+.frame-870 {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  padding: 11px;
+  gap: 10px;
+  position: absolute;
+  width: 36px;
+  height: 8px;
+  left: 61px;
+  top: 206px;
+  background: #1ac44a;
+  border-radius: 71px;
+  z-index: 1;
+}
+
+.percent {
+  /* +25% */
+
+  width: 35px;
+  height: 9px;
+
+  /* Caption/02 */
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 17px;
+  /* or 142% */
+  /* leading-trim and text-edge are draft CSS properties.
+  
+  Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+  */
+  leading-trim: both;
+  text-edge: cap;
+
+  /* White */
+  color: #ffffff;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.group-7 {
+  /* Group 7 */
+
+  /* position: absolute; */
+  width: 31.5px;
+  height: 42.07px;
+  left: 8.5px;
+  top: 233.54px;
+}
+
+.group {
+}
+
+.arrow {
+  position: absolute;
+  z-index: 1;
+  top: 233px;
+  left: 18px;
+}
+
+.group-6 {
+  /* Group 6 */
+
+  /* position: absolute; */
+  width: 30.17px;
+  height: 26.62px;
+  left: 857.83px;
+  top: 249px;
+}
+
+.rectangle-92 {
+  /* Rectangle 92 */
+
+  position: absolute;
+  width: 6.21px;
+  height: 26.62px;
+  left: 50.79px;
+  top: 249px;
+
+  /* Neutral / 05 */
+  background: #364050;
+  border-radius: 1.77465px;
+  z-index: 1;
+}
+
+.rectangle-91 {
+  /* Rectangle 91 */
+
+  position: absolute;
+  width: 6.21px;
+  height: 22.18px;
+  left: 40.8px;
+  top: 253.44px;
+
+  /* Neutral / 05 */
+  background: #364050;
+  border-radius: 1.77465px;
+  z-index: 1;
+}
+
+.rectangle-90 {
+  /* Rectangle 90 */
+
+  position: absolute;
+  width: 6.21px;
+  height: 16.86px;
+  left: 30.82px;
+  top: 258.76px;
+
+  /* Neutral / 05 */
+  background: #364050;
+  border-radius: 1.77465px;
+  z-index: 1;
+}
+
+.rectangle-89 {
+  /* Rectangle 89 */
+
+  position: absolute;
+  width: 6.21px;
+  height: 12.42px;
+  left: 20.83px;
+  top: 263.2px;
+
+  /* Neutral / 05 */
+  background: #364050;
+  border-radius: 1.77465px;
+  z-index: 1;
+}
+
+.rectangle-88 {
+  /* Rectangle 88 */
+
+  position: absolute;
+  width: 74px;
+  height: 74px;
+  left: 3px;
+  top: 221px;
+
+  /* White */
+  background: #ffffff;
+  /* Dropshadow decor 2 */
+  box-shadow: 0px 4px 9px rgba(38, 97, 197, 0.2);
+  border-radius: 24px;
+}
+
+.frame-874 {
+  /* Frame 874 */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 48px;
+
+  position: absolute;
+  width: 544px;
+  height: 298px;
+  left: 120px;
+  top: calc(36% - 298px / 2 + 11.5px);
+}
+
+.p-header {
+  /* Restaurant Management made as easy as pie */
+
+  width: 525px;
+  height: 87px;
+
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 54px;
+  /* or 123% */
+  /* leading-trim and text-edge are draft CSS properties.
+  
+  Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+  */
+  leading-trim: both;
+  text-edge: cap;
+
+  /* Neutral/09 */
+  color: #030c1b;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.p-body {
+  width: 544px;
+  height: 67px;
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 17px;
+  line-height: 150%;
+  leading-trim: both !important;
+  text-edge: cap !important;
+  color: #364050;
+  flex: none;
+  flex-grow: 0;
+  flex-grow: 0;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+  position: absolute;
+  top: calc(97% - 298px / 2 + 11.5px);
+}
+
+.button-container-frame-104 {
+  position: relative;
+  top: calc(77% - 298px / 2 + 11.5px);
+}
+
+.button-container-frame-104 button {
+  margin-right: 10px; /* Add some space between the buttons */
+  display: inline-block;
+}
+
+.btn-left {
+  /* Button */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  gap: 8px;
+
+  width: 180px;
+  height: 48px;
+
+  /* Primary/01 */
+  background: #f1f6ff;
+  border-radius: 8px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+
+  background: linear-gradient(249.46deg, #2878ff 1.31%, #2c65c8 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  border: 1px solid whitesmoke; /* Remove the button border */
+}
+
+.btn-right {
+  border: none; /* Remove the button border */
+
+  /* Button */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  gap: 8px;
+
+  width: 180px;
+  height: 48px;
+
+  /* Primary/05 */
+  background: linear-gradient(249.46deg, #2878ff 1.31%, #2c65c8 100%);
+  border-radius: 8px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  color: white;
+
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.frame-902 {
+  /* Frame 902 */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 48px;
+
+  width: 622px;
+  height: 324px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+
+  margin-left: 35%; /* Add margin to the left of the flex item */
+}
+.frame-20 {
+  /* Frame 20 */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 24px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.frame-20-title {
+  /* Title */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 16px 24px;
+  gap: 10px;
+
+  width: 201px;
+  height: 41px;
+
+  /* Primary/01 */
+  background: #f1f6ff;
+  border-radius: 8px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.frame-20-title p {
+  font-weight: 700;
+  leading-trim: both;
+  text-edge: cap;
+  letter-spacing: 0.2em;
+  background: linear-gradient(249.46deg, #2878ff 1.31%, #2c65c8 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.frame-902-text {
+  /* We are one-stop solution to track, optimize and deliver food with an easy to use mobile app for ordering and our award winning desktop app for manament. */
+
+  width: 580px;
+  height: 69px;
+
+  /* Heading 4/04 */
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  /* or 156% */
+  /* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+  leading-trim: both;
+  text-edge: cap;
+  text-align: center;
+
+  /* Neutral / 07 */
+  color: #121d2f;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.frame-908 {
+  /* Frame 908 */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 64px;
+
+  width: 622px;
+  height: 64px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+.frame-906 {
+  /* Frame 905 */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 16px;
+
+  width: 177px;
+  height: 64px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.icon {
+  /* Icon */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
+
+  width: 64px;
+  height: 64px;
+
+  /* Primary/01 */
+  background: #f1f6ff;
+  border-radius: 12px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.frame-887 {
+  /* Frame 887 */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 32px;
+
+  position: absolute;
+  width: 100%;
+  height: 162px;
+  left: -60px;
+  top: 0px;
+}
+.frame-887 p {
+  /* software build for and trusted by 100+ brands */
+
+  height: 10px;
+
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 150%;
+  /* or 21px */
+  /* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+  leading-trim: both;
+  text-edge: cap;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+
+  /* Neutral / 03 */
+  color: #8d96a6;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.frame-886 {
+  /* Frame 886 */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 60px;
+
+  width: 100%;
+  height: 120px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.frame-882 {
+  /* Frame 882 */
+
+  width: 120px;
+  height: 120px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.frame-882 img {
+  /* image 11 */
+
+  position: absolute;
+  width: 120px;
+  height: 100.8px;
+  /* left: 20%; */
+  top: 16.4px;
+}
+.res-reimagined {
+  /* Restaurant reimagined */
+
+  width: 441px;
+  height: 30px;
+
+  /* Heading 1/01 */
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  /* or 120% */
+  /* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+  leading-trim: both;
+  text-edge: cap;
+
+  /* Neutral / 07 */
+  color: #121d2f;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.frame-902-text {
+  /* We are one-stop solution to track, optimize and deliver food with an easy to use mobile app for ordering and our award winning desktop app for manament. */
+
+  width: 580px;
+  height: 69px;
+
+  /* Heading 4/04 */
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  /* or 156% */
+  /* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+  leading-trim: both;
+  text-edge: cap;
+  text-align: center;
+
+  /* Neutral / 07 */
+  color: #121d2f;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.margin-top-1 {
+  top: 509px;
+}
+
+.margin-top-2 {
+  top: 589px;
+}
+.frame-935 {
+  display: flex;
+  z-index: 2;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 11.6513px 29.1283px;
+  gap: 14.56px;
+  position: absolute;
+  width: 81.73px;
+  height: 12.94px;
+  left: calc(3.9% - 136.73px / 2 + 100.08px);
+  top: 378.94px;
+  background: #1ac44a;
+  border-radius: 11.6513px;
+  transform: rotate(-18.38deg);
+}
+.frame-935 p {
+  /* Answer call */
+
+  width: 65px;
+  height: 9px;
+
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11.9702px;
+  line-height: 25px;
+
+  leading-trim: both;
+  text-edge: cap;
+
+  /* White */
+  color: #ffffff;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.frame-934 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 8.74px;
+  position: absolute;
+  width: 85px;
+  height: 34.74px;
+  left: calc(3.9% - 85px / 2 + 11.72px);
+  top: 143.18px;
+  z-index: 2;
+}
+
+.frame-934 .p1 {
+  /* Customer */
+
+  width: 85px;
+  height: 13px;
+
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17.477px;
+  line-height: 25px;
+
+  leading-trim: both;
+  text-edge: cap;
+
+  /* Neutral / 07 */
+  color: #121d2f;
+
+  transform: rotate(-18.38deg);
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.frame-934 .p2 {
+  /* calling */
+
+  width: 56px;
+  height: 13px;
+
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17.477px;
+  line-height: 25px;
+
+  leading-trim: both;
+  text-edge: cap;
+
+  /* Neutral / 07 */
+  color: #121d2f;
+
+  transform: rotate(-18.38deg);
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.frame-936 {
+  /* Frame 936 */
+
+  position: absolute;
+  width: 160.21px;
+  height: 198.07px;
+  left: 42.75px;
+  top: 149.56px;
+  transform: rotate(-18.38deg);
+  z-index: 2;
+}
+.group-17 {
+  position: absolute;
+  width: 244.68px;
+  height: 244.68px;
+  left: calc(18% - 244.68px / 2 - 5.19px);
+  top: calc(-2% - 244.68px / 2 + 65.03px);
+  transform: rotate(-18.38deg);
+}
+.group-4 {
+  /* Group 4 */
+
+  position: absolute;
+  width: 100.75px;
+  height: 100.75px;
+  left: 43.56px;
+  top: 87.32px;
+
+  filter: drop-shadow(0px 7.85063px 15.7013px rgba(34, 90, 186, 0.15));
+  transform: rotate(-18.38deg);
+}
+
+.frame-936 {
+  /* Frame 936 */
+
+  position: absolute;
+  width: 160.21px;
+  height: 198.07px;
+  left: 42.75px;
+  top: 149.56px;
+
+  transform: rotate(-18.38deg);
+}
+
+.group-4 {
+  /* Group 4 */
+
+  position: absolute;
+  width: 100.75px;
+  height: 100.75px;
+  left: 43.56px;
+  top: 87.32px;
+
+  filter: drop-shadow(0px 7.85063px 15.7013px rgba(34, 90, 186, 0.15));
+  transform: rotate(-18.38deg);
+}
+
+.call-calling {
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  left: 74.39px;
+  top: 121.29px;
+  border-radius: 80.4689px;
+  transform: rotate(73.62deg);
+  z-index: 2;
+}
+.ecllipse3 {
+  /* Ellipse 3 */
+
+  position: absolute;
+  width: 100.75px;
+  height: 100.75px;
+  left: 43.56px;
+  top: 87.32px;
+
+  /* Primary/01 */
+  background: #f1f6ff;
+  border-radius: 80.4689px;
+  transform: rotate(-18.38deg);
+}
+.ecllipse2 {
+  /* Ellipse 2 */
+
+  position: absolute;
+  width: 62.81px;
+  height: 62.81px;
+  left: 67.54px;
+  top: 99.35px;
+
+  /* White */
+  background: #ffffff;
+  border-radius: 80.4689px;
+  transform: rotate(-18.38deg);
+}
+.ecllipses {
+  margin-left: 67px;
+  margin-top: 67px;
+  position: absolute;
+}
+.ecllipse7 {
+  /* Ellipse 7 */
+
+  box-sizing: border-box;
+  position: absolute;
+  width: 244.68px;
+  height: 244.68px;
+  left: -32.43px;
+  top: 19.73px;
+  opacity: 0.3;
+  border: 1.96266px solid #edf4ff;
+  transform: rotate(-18.38deg);
+  border-radius: var(--circle-radius);
+}
+.ecllipse6 {
+  /* Ellipse 6 */
+
+  box-sizing: border-box;
+  position: absolute;
+  width: 205.1px;
+  height: 205.1px;
+  left: -12.41px;
+  top: 38.26px;
+  opacity: 0.3;
+  border: 1.96266px solid #edf4ff;
+  transform: rotate(-18.38deg);
+  border-radius: var(--circle-radius);
+}
+.ecllipse5 {
+  /* Ellipse 5 */
+
+  box-sizing: border-box;
+  position: absolute;
+  width: 169.12px;
+  height: 169.12px;
+  left: 7.34px;
+  top: 57.66px;
+  opacity: 0.3;
+  border: 1.96266px solid #edf4ff;
+  transform: rotate(-18.38deg);
+  border-radius: var(--circle-radius);
+}
+.ecllipse4 {
+  /* Ellipse 4 */
+
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 129.54px;
+  height: 129.54px;
+  left: 25.36px;
+  top: 78.2px;
+
+  opacity: 0.5;
+  border: 1.96266px solid #edf4ff;
+
+  transform: rotate(-18.38deg);
+
+  border-radius: var(--circle-radius);
+}
+.iPhone {
+  position: relative;
+  margin-left: 42px;
+  margin-bottom: -247px;
+}
+.iPhone-12 {
+  position: absolute;
+
+  top: 63.1px;
+  mix-blend-mode: normal;
+  z-index: 1;
+}
+.main {
+  position: absolute;
+
+  left: -10.7px;
+  top: 57.52px;
+}
+body {
+  /* background-color: #001333; */
+}
+
+.fraem-939 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 19px 0px 0px 0px;
+  gap: 49px;
+  width: 285px;
+  height: 73px;
+  background: #ffffff;
+  border-radius: 0px 0px 16px 16px;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+.fraem-945 {
+}
+
+.rectangle-96 {
+  /* Rectangle 96 */
+
+  position: absolute;
+  width: 716.45px;
+  height: 716.45px;
+  left: -346px;
+  top: -111.4px;
+
+  background: linear-gradient(315deg, #d9e8ff 23.17%, #f2f7ff 93.12%);
+  border-radius: 130px;
+  transform: rotate(-45deg);
+  z-index: -1;
+}
+
+.group-18 {
+  /* Group 18 */
+
+  position: absolute;
+  width: 285px;
+  height: 147px;
+  left: 352px;
+  top: 137px;
+}
+
+.fraem-943 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px 16px;
+  gap: 4px;
+  position: absolute;
+  width: 126px;
+  height: 17px;
+  left: 474px;
+  top: 137px;
+  background: #001333;
+  box-shadow: 0px 4px 9px rgba(38, 97, 197, 0.2);
+  border-radius: 82px;
+  z-index: 1;
+  margin-top: -2px;
+}
+
+.group-18 .call {
+  width: 114px;
+  height: 9px;
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 17px;
+  leading-trim: both;
+  text-edge: cap;
+  color: #ffffff;
+  flex: none;
+  order: 0;
+  margin: 0px 0px 7px 2px;
+  flex-grow: 0;
+}
+
+.group-18 .icon {
+  /* 💬 */
+
+  /* width: 14px;
+  height: 10px;
+
+  background-image: url("img/msg.png");
+  background-repeat: no-repeat;
+  background-position: center center; */
+}
+
+.fraem-944 {
+  /* Frame 944 */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+
+  position: absolute;
+  width: 285px;
+  height: 123px;
+  left: 352px;
+  top: 161px;
+
+  /* Dropshadow decor */
+  filter: drop-shadow(0px 8px 16px rgba(37, 98, 204, 0.15));
+}
+
+.fraem-940 {
+  /* Frame 940 */
+
+  box-sizing: border-box;
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  gap: 10px;
+
+  width: 285px;
+  height: 50px;
+
+  /* White */
+  background: #ffffff;
+  /* Neutral / 01 */
+  border-bottom: 0.5px solid #eff1f4;
+  border-radius: 16px 16px 0px 0px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.fraem-940 .awaiting-order {
+  /* Awaiting order */
+
+  margin: 0 auto;
+  width: 99px;
+  height: 10px;
+
+  /* Body 2 / 02 */
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  /* or 143% */
+  /* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+  leading-trim: both;
+  text-edge: cap;
+
+  /* Neutral / 07 */
+  color: #121d2f;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.fraem-940 .in-delivery {
+  /* In delivery */
+
+  margin: 0 auto;
+  width: 59px;
+  height: 9px;
+
+  /* Caption/02 */
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 17px;
+  /* or 142% */
+  /* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+  leading-trim: both;
+  text-edge: cap;
+
+  /* Success / 06 */
+  color: #0eb03b;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.fraem-946 {
+  /* Frame 946 */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 6px;
+
+  margin: 0 auto;
+  width: 112px;
+  height: 33px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.time {
+  /* 12:20 PM */
+
+  margin: 0 auto;
+  width: 61px;
+  height: 10px;
+
+  /* Body 2 / 02 */
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  /* or 143% */
+  /* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+  leading-trim: both;
+  text-edge: cap;
+
+  /* Neutral / 05 */
+  color: #364050;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.fraem-945 {
+  /* Frame 945 */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 4px;
+
+  width: 112px;
+  height: 18px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.fraem-949-text {
+  /* Hillmore St 121A */
+
+  width: 90px;
+  height: 9px;
+
+  /* Caption/02 */
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 17px;
+  /* or 142% */
+  /* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+  leading-trim: both;
+  text-edge: cap;
+
+  /* Neutral / 07 */
+  color: #121d2f;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.fraem-949-time {
+}
+
+.vector-location {
+  /* vuesax/bold/location */
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  left: 16px;
+  top: 67px;
+}
+
+.fraem-947 p {
+  /* New York */
+
+  width: 54px;
+  height: 9px;
+
+  /* Caption/03 */
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 17px;
+  /* or 142% */
+  /* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+  leading-trim: both;
+  text-edge: cap;
+
+  /* Neutral / 02 */
+  color: #c9cfd9;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.fraem-943 .msg {
+  width: 14px;
+  height: 10px;
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 20px;
+
+  color: #062966;
+  flex: none;
+  order: 1;
+  margin: 0px 0px 20px -17px;
+  flex-grow: 0;
+}
+:root {
+  --circle-size: 100px;
+  --circle-radius: 50%;
+}
+
+.mobile-area {
+  margin-top: 258px;
+}
+.line-1 {
+  /* Line 1 */
+
+  position: absolute;
+  width: 129%;
+  height: 0px;
+  left: calc(50% - 2000px / 2 - 12px);
+  /* top: calc(50% - 0px / 2 + 292px); */
+
+  /* Success / 06 */
+  border: 3px solid #0eb03b;
+}
+
+.group-20 {
+  /* Group 20 */
+
+  position: absolute;
+  width: 2000px;
+  height: 102px;
+  left: -292px;
+  top: 612px;
+}
+
+.fraem-933 {
+  /* Frame 933 */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  gap: 37%;
+
+  position: absolute;
+  width: 1027px;
+  height: 102px;
+  left: calc(50% - 1027px / 2 - 12.5px);
+  top: calc(-280% - 102px / 2 + 263px);
+}
+
+.communicate {
+  /* Communicate */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 24px;
+
+  margin: 0 auto;
+  width: 161px;
+  height: 102px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.communicate p {
+  /* Communicate with your employees */
+
+  width: 161px;
+  height: 30px;
+
+  /* Body 2 / 02 */
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+
+  display: flex;
+  align-items: flex-end;
+  text-align: center;
+
+  /* Neutral / 07 */
+  color: #121d2f;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.group-16 {
+  width: 48px;
+  height: 48px;
+  flex: none;
+  margin-top: 51px;
+  order: 1;
+  flex-grow: 0;
+  position: absolute;
+  z-index: 1;
+}
+
+.group-16 img {
+  /* Vector */
+
+  position: absolute;
+  /* left: 43.48%; */
+  right: 42.24%;
+  /* top: 69.61%; */
+  bottom: 15.38%;
+
+  /* Success / 06 */
+
+  top: 27%;
+  left: 19%;
+  position: absolute;
+}
+
+.ecllipse23 {
+  /* Ellipse 23 */
+
+  box-sizing: border-box;
+
+  /* position: absolute; */
+  width: 48px;
+  height: 48px;
+  left: 56.5px;
+  top: 54px;
+
+  /* Success / 01 */
+  background: #edfff2;
+  /* Success / 06 */
+  border: 3px solid #0eb03b;
+  border-radius: 50%;
+}
+
+.fraem-932 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 48px;
+  position: absolute;
+  width: 544px;
+  height: 305px;
+  left: 64%;
+  top: calc(36% - 305px / 2 - 122.5px);
+}
+
+.fraem-26 {
+  width: 474px;
+  height: 88px;
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 31px;
+  leading-trim: both;
+  text-edge: cap;
+  color: #121d2f;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.title p {
+  width: 138px;
+  height: 9px;
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 150%;
+  leading-trim: both;
+  text-edge: cap;
+  /* letter-spacing: 0.2em; */
+  text-transform: uppercase;
+  background: linear-gradient(249.46deg, #2878ff 1.31%, #2c65c8 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.fraem-26 .title {
+  /* Title */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 16px 24px;
+  gap: 10px;
+
+  width: 186px;
+  height: 41px;
+
+  /* Primary/01 */
+  background: #f1f6ff;
+  border-radius: 8px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.title p {
+  /* THIS IS PLATEFORM */
+
+  width: 138px;
+  height: 9px;
+
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 150%;
+  /* or 18px */
+  /* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+  leading-trim: both;
+  text-edge: cap;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+
+  /* Primary/05 */
+  background: linear-gradient(249.46deg, #2878ff 1.31%, #2c65c8 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.fraem-26 p {
+  /* Great communication means more time and profit */
+
+  width: 544px;
+  height: 78px;
+
+  /* Heading 1/01 */
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  /* or 120% */
+  /* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+  leading-trim: both;
+  text-edge: cap;
+
+  /* Neutral / 07 */
+  color: #121d2f;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.fraem-27 {
+  /* Frame 27 */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 32px;
+
+  width: 544px;
+  height: 114px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.fraem-26 .text-1 {
+  /* Communication is key! That’s why we make it easy and hassle-free, so you don’t waster time on unnecessary interactions. */
+
+  width: 544px;
+  height: 41px;
+
+  /* Heading 4/04 */
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  /* or 156% */
+  /* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+  leading-trim: both;
+  text-edge: cap;
+
+  /* Neutral / 07 */
+  color: #121d2f;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+.fraem-26 .text-1 {
+  /* Keep track of your employees, drivers and vehicles, manage social media and stay in touch with your customers. */
+
+  width: 544px;
+  height: 41px;
+
+  /* Heading 4/04 */
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  /* or 156% */
+  /* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+  leading-trim: both;
+  text-edge: cap;
+
+  /* Neutral / 07 */
+  color: #121d2f;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
