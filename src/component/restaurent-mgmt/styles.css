@@ -1866,7 +1866,7 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
   position: absolute;
   width: 223px;
   height: 77px;
-  left: 982px;
+  right: 3%;
   top: 76px;
   background: #ffffff;
   box-shadow: 0px 8px 16px rgba(37, 98, 204, 0.15);
@@ -1946,13 +1946,14 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
   position: absolute;
   width: 416px;
   height: 228px;
-  left: 845px;
   top: 124px;
   background: #ffffff;
   box-shadow: 0px 0px 10px rgba(37, 98, 204, 0.05),
     0px 8px 16px rgba(37, 98, 204, 0.15);
   border-radius: 24px;
   z-index: 1;
+  right: 3%;
+
 }
 .frame-976 {
   display: flex;
@@ -2269,12 +2270,13 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
   position: absolute;
   width: 487px;
   height: 317px;
-  /* left: 730px; */
-  top: 337px;
+  top: 437px;
   background: #ffffff;
   box-shadow: 0px 0px 10px rgba(37, 98, 204, 0.05),
     0px 8px 16px rgba(37, 98, 204, 0.15);
   border-radius: 24px;
+  right: 3%;
+
 }
 .line-2 {
   /* Line 2 */
@@ -2305,23 +2307,42 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
   right: 22px;
   top: 82px;
 }
-.Pizza {
-  /* Frame 968 */
+.pizza {
+  /* Pizza */
 
-  /* Auto layout */
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0px;
-  gap: 23px;
+  margin: 0 auto;
+  width: 138px;
+  height: 146.12px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.pizza .img-26 {
+  /* image 26 */
 
   position: absolute;
-  height: 146.12px;
-  left: 54px;
-  right: 22px;
-  top: 82px;
+  width: 138px;
+  height: 138px;
+  left: 0px;
+  top: 0px;
 }
+
+.pizza .img-25 {
+  /* image 25 */
+
+  position: absolute;
+  width: 138px;
+  height: 138px;
+  left: 0px;
+  top: 8.12px;
+
+  opacity: 0.5;
+  filter: blur(10.1471px);
+}
+
 .frame-967 {
   /* Frame 967 */
 
@@ -2334,7 +2355,7 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
 
   margin: 0 auto;
   width: 208px;
-  height: 90px;
+  height: 159px;
 
   /* Inside auto layout */
   flex: none;
@@ -2383,54 +2404,29 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
   flex-grow: 0;
 }
 .frame-961 {
-  /* Frame 967 */
-
-  /* Auto layout */
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  padding: 0px;
-  gap: 20px;
-
-  margin: 0 auto;
-  width: 208px;
-  height: 90px;
-
-  /* Inside auto layout */
-  flex: none;
+  gap: 40px;
   order: 1;
-  flex-grow: 0;
+  margin-top: -45px;
 }
 .shopping-cart {
-  /* vuesax/bold/shopping-cart */
-
-  width: 20px;
-  height: 20px;
-
-  /* Inside auto layout */
-  flex: none;
-  order: 0;
-  flex-grow: 0;
+  margin-bottom: -41px;
+}
+.shopping-cart img {
+  vertical-align: middle;
 }
 .frame-961-text-1 {
   /* 2390 sold this month */
 
-  width: 139px;
   height: 10px;
 
   /* Body 2/04 */
   font-family: "Plus Jakarta Sans";
   font-style: normal;
-  font-weight: 600;
   font-size: 14px;
   line-height: 20px;
-  /* or 143% */
-  /* leading-trim and text-edge are draft CSS properties.
 
-Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
-*/
-  leading-trim: both;
-  text-edge: cap;
   display: flex;
   align-items: flex-end;
 
@@ -2441,17 +2437,17 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
   flex: none;
   order: 1;
   flex-grow: 0;
+  display: inline-block;
+  vertical-align: middle;
 }
 .frame-961-text-2 {
   /* +15% */
 
-  width: 33px;
   height: 9px;
 
   /* Caption/02 */
   font-family: "Plus Jakarta Sans";
   font-style: normal;
-  font-weight: 600;
   font-size: 12px;
   line-height: 17px;
   /* or 142% */
@@ -2471,17 +2467,39 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
   flex: none;
   order: 2;
   flex-grow: 0;
+  display: inline-block;
+  vertical-align: middle;
 }
 .frame-960 {
   /* Frame 960 */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+
+  width: 189px;
+  height: 20px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.star {
+  /* Frame 960 */
+
   /* Auto layout */
   display: flex;
   flex-direction: row;
   align-items: center;
   padding: 0px;
   gap: 8px;
+
   width: 189px;
   height: 20px;
+
+  /* Inside auto layout */
   flex: none;
   order: 1;
   flex-grow: 0;
@@ -2662,16 +2680,12 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
   /* Most loved by the customers */
   position: absolute;
   width: 210px;
-  height: 11px;
   right: -7px;
-  top: -56px;
   font-family: "Plus Jakarta Sans";
-  /* font-style: normal; */
   font-weight: 500;
   font-size: 14px;
   line-height: 25px;
-  leading-trim: both;
-  text-edge: cap;
+
   display: flex;
   align-items: flex-end;
   color: #364050;
@@ -2687,10 +2701,12 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
   position: absolute;
   width: 114px;
   height: 34px;
-  left: -30px;
-  top: -68px;
   background: #fff9eb;
   border-radius: 24px;
+}
+.pizza-card-header{
+  margin-top: 21px;
+  margin-left: 16px;
 }
 .frame-963-text-1 {
   /* 🏆 */
@@ -2735,4 +2751,155 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
 
   background: #fff9eb;
   border-radius: 24px;
+}
+
+.fraem-958{
+  
+  
+/* Frame 958 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 48px;
+
+position: absolute;
+width: 632px;
+height: 553px;
+left: 120px;
+top: calc(50% - 553px/2 - 23.5px);
+
+
+}
+.frame-958{
+  /* Frame 958 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 48px;
+
+position: absolute;
+width: 632px;
+height: 553px;
+left: 120px;
+top: calc(50% - 553px/2 - 23.5px);
+
+
+}
+.frame-948{
+  /* Frame 958 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+position: absolute;
+width: 632px;
+height: 553px;
+left: 120px;
+top: calc(50% - 553px/2 - 23.5px);
+
+
+}
+.title{
+  /* Frame 958 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 48px;
+
+position: absolute;
+width: 632px;
+height: 553px;
+left: 120px;
+top: calc(50% - 553px/2 - 23.5px);
+
+
+}
+.title-text{
+  /* THIS IS PLATEFORM */
+
+width: 86px;
+height: 41px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 150%;
+
+letter-spacing: 0.2em;
+text-transform: uppercase;
+
+/* Primary/05 */
+background: linear-gradient(249.46deg, #2878FF 1.31%, #2C65C8 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+.fraem-958-text{
+  /* We analyse your date, to give you a roadmap to success */
+
+width: 544px;
+height: 126px;
+
+/* Heading 1/02 */
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 48px;
+margin:7px 0px 0px 0px;
+letter-spacing: -0.01em;
+
+/* Neutral / 07 */
+color: #121D2F;
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+
+
+
+.anlytics-title{
+  /* Title */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 5px 24px;
+gap: 10px;
+
+width: 92px;
+height: 41px;
+
+/* Primary/01 */
+background: #F1F6FF;
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
 }
